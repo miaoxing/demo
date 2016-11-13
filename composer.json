@@ -1,0 +1,22 @@
+{
+  "name": "miaoxing/demo",
+  "keywords": [
+    "miaoxing", "demo"
+  ],
+  "license": "MIT",
+  "require": {
+    "miaoxing/app": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Miaoxing\\Demo\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MiaoxingTest\\Demo\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
