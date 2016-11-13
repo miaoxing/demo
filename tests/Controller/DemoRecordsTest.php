@@ -9,5 +9,4 @@ use Miaoxing\Plugin\Test\BaseControllerTestCase;
  */
 class DemoRecordsTest extends BaseControllerTestCase
 {
-
 }
