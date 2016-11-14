@@ -1,11 +1,12 @@
 {
   "name": "miaoxing/demo",
+  "description": "Miaoxing Demo Plugin",
   "keywords": [
     "miaoxing", "demo"
   ],
   "license": "MIT",
   "require": {
-    "miaoxing/app": "@dev"
+    "miaoxing/app": "dev-master@dev"
   },
   "autoload": {
     "psr-4": {
