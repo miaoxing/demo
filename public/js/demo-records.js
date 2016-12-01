@@ -1,6 +1,6 @@
 define(function () {
   var DemoRecords = function () {
-
+    // do nothing.
   };
 
   DemoRecords.prototype.indexAction = function (options) {
