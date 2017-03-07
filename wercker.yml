@@ -7,6 +7,9 @@ services:
 
 build:
   steps:
+    - script:
+        name: set github token
+        code: composer config -g github-oauth.github.com $GITHUB_CLONE_TOKEN
     - mbrevda/composer-install@1.0.1
     - script:
         name: wait for mysql connection
