@@ -2,7 +2,7 @@
 
 namespace Miaoxing\Demo\Service;
 
-use miaoxing\plugin\BaseService;
+use Miaoxing\Plugin\BaseService;
 
 class DemoRecord extends BaseService
 {
