@@ -2,7 +2,7 @@
 
 namespace Miaoxing\Demo\Controller\Admin;
 
-use miaoxing\plugin\BaseController;
+use Miaoxing\Plugin\BaseController;
 
 class DemoRecords extends BaseController
 {
